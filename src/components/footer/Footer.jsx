@@ -2,7 +2,7 @@ import "./footer.scss"
 
 export default function Footer() {
   return (
-    <div className='footer'>
+    <div className="footer" id="footer">
         hello
     </div>
   )
