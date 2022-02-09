@@ -17,7 +17,12 @@ export default function Cv() {
                   <p>
                     What drives me forward is that the industry is constantly evolving, which means that I too can and need to develop. It's both exciting and fun. 
                   </p>
+                  <br />
+                  <br />
+                  <br />
+                  <a href="">Download my CV</a>
                  </div>
+                 
              
               </div>
             </div>
