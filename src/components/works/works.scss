@@ -1,3 +1,23 @@
-.works {
-  background-color: whitesmoke;
+.w {
+  width: 350px;
+  height: 200px;
+  margin: 20px 10px;
+  border: 2px solid lightgray;
+  border-radius: 10px;
+  overflow: hidden;
+
+  .card-title {
+    margin-top: 10px;
+    font-weight: 400;
+    color: whitesmoke;
+  }
+
+  .card-text {
+    font-weight: 400;
+    color: whitesmoke;
+  }
+
+  .w-img {
+    width: 100%;
+  }
 }

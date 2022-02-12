@@ -3,10 +3,9 @@ import "./cv.scss"
 export default function Cv() {
   return (
     <div className="cv" id="cv">
-       
         <div className="box">
           <div className="container">
-            <div className="item">
+            <div className="item" data-aos="fade-up">
                <div className="text-about">
                  <div className="desc">
                   <p>
@@ -22,16 +21,11 @@ export default function Cv() {
                   <br />
                   <a href="">Download my CV</a>
                  </div>
-                 
-             
               </div>
             </div>
-           
           </div>
         </div>
-       
     </div>
-    
   )
 }
   

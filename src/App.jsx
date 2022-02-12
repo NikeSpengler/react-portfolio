@@ -1,15 +1,15 @@
 import Topbar from "./components/topbar/Topbar";
 import About from "./components/about/About";
-import Works from "./components/works/Works";
 import Contact from "./components/contact/Contact";
-import Cv from "./components/cv/Cv";
+import Cv from "./components/Cv/Cv";
 import Menu from "./components/menu/Menu";
 import "./app.scss"
 import {useState} from "react";
+import Worklist from "./components/worklist/Worklist";
 
 
 
-function App() { 
+const App = () => { 
   const [menuOpen, setMenuOpen] = useState(false)
 
   return (
@@ -19,11 +19,11 @@ function App() {
       <div className="sections">
         <About/>
         <Cv/>
-        <Works/>
+        <Worklist/>
         <Contact/>
        </div>
     </div>
   );
-}
+};
 
 export default App;

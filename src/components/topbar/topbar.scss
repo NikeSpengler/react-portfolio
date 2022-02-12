@@ -7,9 +7,10 @@
   position: fixed;
   top: 0;
   z-index: 3;
+  overflow: hidden;
 
   .wrapper {
-    padding: 15px 100px;
+    padding: 25px 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
