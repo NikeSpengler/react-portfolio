@@ -1,19 +1,15 @@
 import "./about.scss";
-import { init } from "ityped";
-import { useEffect, useRef } from "react";
+import { Typewriter } from "react-simple-typewriter";
+import { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 
-export default function About() {
-  const textRef = useRef();
 
-  useEffect(()=>{
-    init (textRef.current, {
-      showCurser: true,
-      backDelay: 1500,
-      backSpeed: 60,
-      strings: ["based in Stockholm"],
-    });
-  }, []);
+const About = () => {
+  useEffect(() => {
+    Aos.init({duration: 1000 });
+     }, []);
 
   return (
         <div className="about" id="about">
@@ -24,21 +20,26 @@ export default function About() {
                 </div>
               </div>
               <div className="right">
-                <div className="wrapper">
+                <div className="wrapper" data-aos="fade-left" >
                       <h2> I am a</h2>
                       <h1>Frontend Developer</h1>
-                      <h2><span ref={textRef}></span></h2>
-                      <br />
-                      <br />
-                      <br />
-                      <br />
+                      <Typewriter
+                      words={["based in Stockholm"]}
+                      loop={false}
+                      cursor
+                      cursorStyle="_"
+                      typeSpeed={100}
+                      deleteSpeed={50}
+                      delaySpeed={1000}
+                      />
                       {/* <a href="">GitHub</a>
                       <a href="">Likedin</a> */}
                   </div>
               </div>  
-        </div>
-      
-        
-        
+
+              
+        </div>    
   )
 }
+
+export default About

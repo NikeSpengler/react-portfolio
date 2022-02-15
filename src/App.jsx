@@ -1,7 +1,7 @@
 import Topbar from "./components/topbar/Topbar";
 import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
-import Cv from "./components/Cv/Cv";
+import Cv from "./components/cv/Cv";
 import Menu from "./components/menu/Menu";
 import "./app.scss"
 import {useState} from "react";

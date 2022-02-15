@@ -1,3 +1,8 @@
+*::-webkit-scrollbar-thumb {
+  background-color: #35353a;
+  border-radius: 10px;
+}
+
 .app {
   height: 100vh;
 
@@ -6,15 +11,13 @@
     height: calc(100vh - 70px);
     position: relative;
     top: 70px;
-    scroll-snap-type: y mandatory;
     scrollbar-width: none; //for firefox, hides scrollbar
     &::-webkit-scrollbar {
-      display: none; //for other browsers
+      display: none; //hide scrollbar for other browsers
     }
     > * {
       width: 100vw;
       height: calc(100vh - 70px);
-      scroll-snap-align: start;
     }
   }
 }
