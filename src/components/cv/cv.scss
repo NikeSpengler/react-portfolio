@@ -6,12 +6,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 350px;
+  padding-bottom: 300px;
 
   .box {
     height: 600px;
     display: flex;
     position: absolute;
     left: 0;
+    overflow: hidden;
 
     .container {
       width: 100vw;

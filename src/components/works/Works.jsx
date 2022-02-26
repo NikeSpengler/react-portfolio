@@ -15,7 +15,7 @@ const Works = ({img, link, title, text}) => {
             <h3 id={title} className="card-title"></h3>
             <p id={text} className="card-text"></p> 
           </div>
-          <a href={link} target="_blank" rel="noreferrer">
+          <a href={link} target="_blank" rel="noreferrer" title="Go to project">
           <img src={img} alt="" className="w-img" />
           </a>
        </div>

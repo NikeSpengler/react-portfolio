@@ -6,6 +6,9 @@ import Menu from "./components/menu/Menu";
 import "./app.scss"
 import {useState} from "react";
 import Worklist from "./components/worklist/Worklist";
+import Works from "./components/works/Works";
+
+
 
 
 

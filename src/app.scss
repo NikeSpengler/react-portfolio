@@ -3,21 +3,6 @@
   border-radius: 10px;
 }
 
-.app {
-  height: 100vh;
-
-  .sections {
-    width: 100%;
-    height: calc(100vh - 70px);
-    position: relative;
-    top: 70px;
-    scrollbar-width: none; //for firefox, hides scrollbar
-    &::-webkit-scrollbar {
-      display: none; //hide scrollbar for other browsers
-    }
-    > * {
-      width: 100vw;
-      height: calc(100vh - 70px);
-    }
-  }
+* {
+  scroll-behavior: smooth;
 }
