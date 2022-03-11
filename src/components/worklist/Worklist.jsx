@@ -11,20 +11,17 @@ const Worklist = () => {
   }, []);
 
   return (
-    <div className="container">
+    <div className="container2">
        <div className="wl">
         <div className="wl-texts">
             <h1 className="wl-title" data-aos="fade-right">Projects</h1>
             <p className="wl-desc" data-aos="fade-left">
-            Here are some previous projects i've done with different technical frameworks and tools. Such as React, JavaScript, Flexbox and Grid. 
+            Here are some previous projects i've done with different technical frameworks and tools. Such as JavaScript, Html, CSS and React. 
             </p>
         </div>
         <div className="wl-list" data-aos="fade-right">
           {work.map((item) => (
-            <Works key={item.id} img={item.img} link={item.link}/>
-              // <div className="card-texts">
-              //   <p>{item.title} {item.text}</p>
-              // </div>
+            <Works key={item.id} img={item.img} link={item.link} title={item.title} undertitle={item.undertitle} description={item.description}/>
           ))}
         </div>
       </div>
