@@ -42,8 +42,12 @@
           line-height: 25px;
           letter-spacing: 0.7px;
           padding: 0px 25px;
-          width: 75%;
+          width: 90%;
           overflow: hidden;
+
+          @include mobile {
+            width: 70%;
+          }
         }
 
         .desc2 {
@@ -59,8 +63,12 @@
           line-height: 25px;
           letter-spacing: 0.7px;
           padding: 0px 25px;
-          width: 75%;
+          width: 90%;
           overflow: hidden;
+
+          @include mobile {
+            width: 70%;
+          }
         }
 
         .desc4 {

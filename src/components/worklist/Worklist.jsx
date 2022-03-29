@@ -16,7 +16,7 @@ const Worklist = () => {
         <div className="wl-texts">
             <h1 className="wl-title" data-aos="fade-right">Projects</h1>
             <p className="wl-desc" data-aos="fade-left">
-            Here are some previous projects i've done with different technical frameworks and tools. Such as JavaScript, Html, CSS and React. 
+            Here are some previous projects I've done with different technical frameworks and tools. Such as JavaScript, HTML, CSS and React. 
             </p>
         </div>
         <div className="wl-list" data-aos="fade-right">

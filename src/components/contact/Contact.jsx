@@ -35,10 +35,10 @@ const Contact = () => {
       <div className="contact-wrapper">
         <div className="contact-left">
           <div className="contact-title" data-aos="fade-left">
-            <p>Contact me.</p>
+            <p>Contact me</p>
           </div>
           <div className="contact-text" data-aos="fade-left">
-            <p>Don´t hesitate to contact me! I’d love to hear about what you’re working on and find a way to work together.</p>
+            <p>Don´t hesitate to contact me! I’d love to hear about what you’re working with and find a way to work together.</p>
           </div>
           <div className="social"data-aos="fade-left">
             <a href="https://github.com/NikeSpengler"><FaGithub/></a>
@@ -56,7 +56,7 @@ const Contact = () => {
         <div className="contact-right" data-aos="fade-left">
           <form onSubmit={sendEmail}>
             <input type="text" placeholder="Name" name="user_name"/>
-            <input type="text" placeholder="Email" name="unser_email"/>
+            <input type="text" placeholder="Email" name="user_email"/>
             <textarea name="message" cols="30" rows="10" placeholder="Message"></textarea>
             {/* <br /> */}
             <button type="submit" value="send">Send</button>
