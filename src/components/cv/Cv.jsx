@@ -2,7 +2,7 @@ import "./cv.scss"
 import { useEffect } from "react";
 import Aos from 'aos';
 import "aos/dist/aos.css";
-import pdfFile from "./CV-2022.pdf";
+import pdfFile from "./CV - 2022.pdf";
 
 
 const Cv = () => {
@@ -15,9 +15,9 @@ const Cv = () => {
       <div className="box">
         <div className="container1">
           <div className="item">
-            <div className="desc1" data-aos="fade-down">
+            <div className="desc1" data-aos="fade-right">
               <p>
-              I am a frontend developer with a background in graphic design who enjoys working both in teams and independently. For the last years, my focus has shifted from graphic design to web development, which has been fun and exciting. I like working with computer structures as well as visual expressions and always strive to find an intuitive functionality.
+              I am Nike Spengler, a frontend developer with a background in graphic design who enjoys working both in teams and independently. The last few years my focus has shifted from graphic design to web development, which has been fun and exciting. I like working with visual expressions and always strive to find an intuitive functionality, as well as solving problems and writing code that is easy to understand and maintain. 
               </p>
             </div> 
             <div className="desc2" data-aos="fade-left">
@@ -25,7 +25,7 @@ const Cv = () => {
             </div>
             <div className="desc3" data-aos="fade-right">
               <p>
-               To always develop, to become wiser and to never stop being curious.
+               I strive to always evelop, to become wiser and to never stop being curious.
               </p>
             </div>
             <div className="desc4" data-aos="fade-left">
