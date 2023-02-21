@@ -2,6 +2,7 @@ import "./cv.scss"
 import { useEffect } from "react";
 import Aos from 'aos';
 import "aos/dist/aos.css";
+import pdfFile from "./CV-2022.pdf";
 
 
 const Cv = () => {
@@ -12,11 +13,11 @@ const Cv = () => {
   return (
     <div className="cv" id="cv">
       <div className="box">
-        <div className="container">
+        <div className="container1">
           <div className="item">
             <div className="desc1" data-aos="fade-down">
               <p>
-                I’m a Stockholm based frontend developer with graphic design experience, often from working in close collaboration with clients. The last few years I’ve shifted from graphic design towards web development which I’ve become rather passionate about. I’m drawn to working with data structures, developing playful visual aesthetics and creating intuitive functionality.
+              I am a frontend developer with a background in graphic design who enjoys working both in teams and independently. For the last years, my focus has shifted from graphic design to web development, which has been fun and exciting. I like working with computer structures as well as visual expressions and always strive to find an intuitive functionality.
               </p>
             </div> 
             <div className="desc2" data-aos="fade-left">
@@ -24,11 +25,11 @@ const Cv = () => {
             </div>
             <div className="desc3" data-aos="fade-right">
               <p>
-                What drives me forward is that the industry is constantly evolving, which means that I too can and need to develop. It's both exciting and fun. 
+               To always develop, to become wiser and to never stop being curious.
               </p>
             </div>
             <div className="desc4" data-aos="fade-left">
-                <a href="">Download my CV</a>
+                <a href={pdfFile} target="_blank" rel="noreferrer">Download CV as PDF</a>
             </div>
           </div>
         </div>

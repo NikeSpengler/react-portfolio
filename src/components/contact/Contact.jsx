@@ -35,15 +35,15 @@ const Contact = () => {
       <div className="contact-wrapper">
         <div className="contact-left">
           <div className="contact-title" data-aos="fade-left">
-            <h1>Contact me.</h1>
+            <p>Contact me.</p>
           </div>
           <div className="contact-text" data-aos="fade-left">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores laboriosam quis non id. Vero aliquid magnam <b>mollitia</b> similique in architecto qui, inventore consequuntur nisi hic veniam, quos, laboriosam non dolorem?</p>
+            <p>Don´t hesitate to contact me! I’d love to hear about what you’re working on and find a way to work together.</p>
           </div>
           <div className="social"data-aos="fade-left">
-            <a href=""><FaGithub/></a>
+            <a href="https://github.com/NikeSpengler"><FaGithub/></a>
             <a href=""><FaInstagram/></a>
-            <a href=""><FaLinkedin/></a>
+            <a href="https://www.linkedin.com/in/nike-spengler-61ba68130/"><FaLinkedin/></a>
           </div>
           {/* <div className="social">
             <a href=""><FaInstagram/></a>
@@ -58,6 +58,7 @@ const Contact = () => {
             <input type="text" placeholder="Name" name="user_name"/>
             <input type="text" placeholder="Email" name="unser_email"/>
             <textarea name="message" cols="30" rows="10" placeholder="Message"></textarea>
+            {/* <br /> */}
             <button type="submit" value="send">Send</button>
           </form>
         </div>

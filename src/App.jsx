@@ -7,6 +7,7 @@ import "./app.scss"
 import {useState} from "react";
 import Worklist from "./components/worklist/Worklist";
 import Works from "./components/works/Works";
+import Footer from "./components/footer/Footer";
 
 
 
@@ -24,6 +25,7 @@ const App = () => {
         <Cv/>
         <Worklist/>
         <Contact/>
+        <Footer/>
        </div>
     </div>
   );
